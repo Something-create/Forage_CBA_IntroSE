@@ -1,31 +1,52 @@
 * {
 
-    font-family: Arial;
-    background: rgb(0,33,71);
-    color: lightblue;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: white;
+    color: #1E1E1E;
 
 }
 
+header {
+    background-color: #FFCC00;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.container-header { /*Code for the header*/
+    background-color: #FFCC00;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 h1 {
+    font-size: 70pt;
+    background-color: #FFCC00;
 
-    color: lightgreen;
+}
 
-    font-size: 40px;
-
+h2 {
+    font-size: 38pt;
 }
 
 p {
-
     font-size: 18px;
-
-    color: lightblue;
 
 }
 
-ul {
+.yellow-box {
+    background-color: #FFFF00;
+    padding: 20px;
+    width: 75%;
+    margin: 20px auto;
     font-size: 18px;
 
-    color: lightblue;
-    
+}
+
+
+ul {
+    font-size: 18px;
 }
